@@ -1,0 +1,28 @@
+{
+  "source_repo": "rekursiv-ai/sagent",
+  "source_url": "https://github.com/rekursiv-ai/sagent",
+  "audit_date": "2026-11-07T10:00:49.292543",
+  "ai_model": "gemini-2.0-flash",
+  "findings_count": 2,
+  "severity_breakdown": {
+    "HIGH": 2
+  },
+  "findings": [
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "sagent/providers/openai/compat_test.py",
+      "line": 173
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "sagent/providers/huggingface/api_test.py",
+      "line": 23
+    }
+  ]
+}
